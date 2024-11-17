@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>黄河奇观——壶口瀑布</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            background: #005f73;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .nav-bar {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+        .nav-bar a:hover {
+            background: #005f73;
+        }
+        .video-background {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Adjust height as needed */
+            background: black;
+        }
+        .video-background video {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+        }
+        .main-content {
+            padding: 50px;
+            background: white;
+            margin: 40px auto;
+            width: 80%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .nav-bar a {
+                display: block;
+                text-align: center;
+            }
+            .main-content {
+                width: 95%;
+				
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><img src="image/logo.png" width="500" height="80" alt=""/><em>黄河奇观——壶口瀑布</em><strong></strong></h1>
+    </div>
+    <div class="nav-bar">
+        <a href="index.html">首页</a>
+        <a href="web/geography and climate.html">地理与气候</a>
+        <a href="web/history and culture.html">历史与文化</a>
+        <a href="web/scenic spot introduction.html">景区介绍</a>
+        <a href="web/travel guide.html">出行攻略</a>
+        <a href="web/pure beauty enjoyment.html">美景纯享</a>
+    </div>
+    <div class="video-background">
+        <!-- Replace 'your-video.mp4' with the path to your video file -->
+        <video autoplay muted loop id="bg-video">
+            <source src="image/index background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="main-content">
+        <h2>壶口瀑布简介：</h2>
+        <p> 壶口瀑布是中国著名的自然景观，被誉为黄河上的璀璨明珠，象征着中华民族自强不息、昂扬奋发的精神。它不仅是一个自然奇观，更是一段历史的见证和文化的赞歌。壶口瀑布以其壮观的自然之美和深厚的文化底蕴，成为国内外游客向往的旅游目的地。瀑布以其金黄色的水流和磅礴的气势，被誉为世界上唯一的金黄色瀑布，同时也是国内唯一的潜伏式、移动式瀑布，四季景色各异，变化无常，还是黄河上唯一的大瀑布。壶口瀑布不仅是国家5A级旅游景区，还是国家地质公园及地质遗迹保护区，展现了河流侵蚀作用形成的河谷地貌遗迹。它的存在不仅为游客提供了震撼的自然景观，也为当地居民的生活带来了巨大的改变，推动了文化旅游的融合发展。</p>
+        <!-- Additional content goes here -->
+    </div>
+    <div class="footer">
+        <p>版权所有 &copy; 计算机科学与技术 CS2402班 罗俊</p>
+    </div>
+</body>
+</html>
